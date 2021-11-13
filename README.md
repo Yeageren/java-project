@@ -1,8 +1,10 @@
 # java-project
-Requirements to run the project :-
 
 
 
+
+
+SETTING UP DATABASE
 1.The user needs to have a MySQL environment set up. The database changes that our project makes are reflected on a table which is present in a Mysql Database.
 
 2. In the workbench the user needs to create a schema named - grp_project. The schema should have a table named -cards.
@@ -14,6 +16,14 @@ Note that the column names should be identical, else the code will definitely th
 4. Once you have the table set up change the password of the JDBC connection statements in the code ( search for the password in your code ),to your own sql environment’s password. If this is not done you will encounter and SQL exception.
 
 5.Once you make these changes and set up your table like this you can run the code effectively from the Main.java file. Make sure you make at least ONE entry before you run our code.  This is because our code needs a card number to begin with.
+
+
+NOTE: PLEASE REFER TO 'project description.pdf' FILE TO UNDERSTAND THINGS BETTER.
+
+
+
+
+RUNNING THE CODE:
 
 6.Download the zippedCodeFiles.zip
 
